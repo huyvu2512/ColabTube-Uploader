@@ -19,3 +19,7 @@ Tôi sẽ cố gắng xác nhận và phản hồi lại bạn sớm nhất có 
 ## 📝 Lưu ý về Token
 - Công cụ này **không** lưu trữ hoặc gửi bất kỳ thông tin nhạy cảm nào (như file `client_secrets.json` hay `youtube_token.json`) đến bất kỳ máy chủ bên thứ ba nào.
 - Mọi dữ liệu xác thực đều được lưu trữ tạm thời trên máy chủ phiên làm việc của Google Colab và sẽ tự động bị xoá sạch khi phiên kết thúc.
+
+## 🧲 Bảo mật khi tải Torrent/Magnet
+- Việc kéo file Torrent/Magnet được thực hiện hoàn toàn bên trong môi trường ảo hóa (sandbox) của Google Colab thông qua công cụ `aria2c`.
+- Địa chỉ IP cá nhân của bạn hoàn toàn được bảo mật và ẩn danh vì mọi kết nối mạng ngang hàng (peer-to-peer) đều được khởi tạo từ máy chủ đám mây của Google, không liên quan đến mạng cá nhân của bạn.

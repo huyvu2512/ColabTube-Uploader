@@ -39,7 +39,7 @@
 
 | Tính năng | Mô tả |
 |---|---|
-| 🌍 **Hỗ trợ mọi link video** | Tải video từ Google Drive, YouTube, OK.ru, VK, Facebook, TikTok, **Bilibili** và link trực tiếp `.mp4`. Tự động nhận diện nguồn. |
+| 🌍 **Hỗ trợ mọi link video** | Tải video từ Google Drive, YouTube, OK.ru, VK, Facebook, TikTok, Bilibili, **Link Torrent/Magnet** và link trực tiếp `.mp4`. Tự động nhận diện nguồn. |
 | 🚀 **Tốc độ siêu tốc** | Kéo file và up lên YouTube bằng mạng siêu khủng của máy chủ Google (Lên tới 50-100MB/s) |
 | 💾 **Sao lưu Google Drive** | Tự động lưu `client_secrets.json` và token vào Drive. Mở lại Colab sẽ tự động khôi phục, không cần cấu hình lại! |
 | 🎨 **Giao diện thân thiện** | Tất cả mã nguồn ẩn mặc định, giao diện Form gọn gàng, Việt Hóa 100%. |
@@ -61,7 +61,7 @@
 4. **Kết nối Drive (MỚI!):** Chạy ô **💾 Kết nối Google Drive**. Lần đầu sẽ yêu cầu cấp quyền. Từ lần sau, nó sẽ tự khôi phục cấu hình cũ từ Drive!
 5. **Tải cấu hình:** Upload `client_secrets.json` (chỉ cần lần đầu, lần sau Drive tự khôi phục).
 6. **Cấu hình & Tải lên:**
-   - Dán BẤT CỨ đường link video nào vào ô `VIDEO_LINK` (hỗ trợ cả **Bilibili**).
+   - Dán BẤT CỨ đường link video hoặc link torrent nào vào ô `VIDEO_LINK` (hỗ trợ cả Bilibili, Magnet/Torrent).
    - Bấm **🚀 BẤT ĐẦU TẢI VÀ UPLOAD YOUTUBE**. Xong!
 
 ---
